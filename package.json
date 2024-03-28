@@ -1,0 +1,38 @@
+{
+  "name": "delenititenetur",
+  "description": "Extension of the Mustache logicless template language",
+  "version": "1.0.0",
+  "keywords": [
+    "handlebars mustache template html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GustHomenick/delenititenetur.git"
+  },
+  "engines": {
+    "node": ">=0.4.7"
+  },
+  "dependencies": {
+    "optimist": "~0.3",
+    "uglify-js": "~1.2"
+  },
+  "devDependencies": {
+    "benchmark": "~1.0",
+    "dust": "~0.3",
+    "jison": "~0.3",
+    "mocha": "*",
+    "mustache": "~0.7.2"
+  },
+  "main": "lib/handlebars.js",
+  "bin": {
+    "handlebars": "bin/handlebars"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -u qunit spec/qunit_spec.js"
+  },
+  "optionalDependencies": {},
+  "author": "VivianneMayert",
+  "bugs": {
+    "url": "https://github.com/GustHomenick/delenititenetur.git/issues"
+  }
+}
